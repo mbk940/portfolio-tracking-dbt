@@ -63,3 +63,18 @@ seeds:
         - "UPDATE {{ this }} SET LOAD_TS = '{{ run_started_at }}' WHERE LOAD_TS is null"
       +column_types:
         LOAD_TS: TIMESTAMP
+    country_ISO_3166:
+      +post-hook:
+        - "UPDATE {{ this }} SET LOAD_TS = '{{ run_started_at }}' WHERE LOAD_TS is null"
+      +column_types:
+        LOAD_TS: TIMESTAMP
+    currency_ISO_4217:
+      +post-hook:
+        - "UPDATE {{ this }} SET LOAD_TS = '{{ run_started_at }}' WHERE LOAD_TS is null"
+      +column_types:
+        LOAD_TS: TIMESTAMP
+    exchange:
+      +post-hook:
+        - "UPDATE {{ this }} SET LOAD_TS = '{{ run_started_at }}' WHERE LOAD_TS is null"
+      +column_types:
+        LOAD_TS: TIMESTAMP

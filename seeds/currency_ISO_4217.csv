@@ -1,4 +1,4 @@
-AlphabeticCode,NumericCode,DecimalDigits,CurrencyName,Locations
+AlphabeticCode,NumericCode,DecimalDigits,CurrencyName,Locations,LOAD_TS
 AED,784,2,United Arab Emirates dirham, United Arab Emirates
 AFN,971,2,Afghan afghani, Afghanistan
 ALL,8,2,Albanian lek, Albania
