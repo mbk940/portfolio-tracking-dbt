@@ -23,7 +23,7 @@ default_record as (
         , 'Missing'     as CURRENCY_NAME
         , 'Missing'     as CURRENCY_LOCATIONS
         , '2020-01-01'  as LOAD_TS_UTC
-        , 'Missing'     as RECORD_SOURCE
+        , 'System.DefaultKey'     as RECORD_SOURCE
 ),
 
 with_default_record as(
