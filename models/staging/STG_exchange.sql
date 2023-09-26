@@ -39,7 +39,7 @@ default_record as (
         , '-1' as CLOSE_UTC         
         , '-1' as LUNCH_UTC   
         , '2020-01-01' as LOAD_TS_UTC
-        , 'Missing' as RECORD_SOURCE            
+        , 'System.DefaultKey' as RECORD_SOURCE            
 ),
 
 with_default_record as(
